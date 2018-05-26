@@ -189,3 +189,6 @@ unset zfunction{s,}
 zstyle -a ':prezto:load' pmodule 'pmodules'
 pmodload "$pmodules[@]"
 unset pmodules
+
+# added by Anaconda3 installer
+export PATH="/home/kirill/anaconda3/bin:$PATH"
